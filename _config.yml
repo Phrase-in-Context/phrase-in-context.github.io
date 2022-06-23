@@ -3,26 +3,24 @@ description: "A Dataset for Phrase Understanding and Semantic Search"
 theme: jekyll-theme-cayman
 remote_theme: tuur29/pages-themes-cayman
 
-# google_analytics: 320505909
-# google_analytics_anonymize: false
-# darkmode: false
+google_analytics: 320505909
+google_analytics_anonymize: false
+darkmode: false
 show_downloads: true
 
-# color:
-#     gradient_left: "#155799"
-#     gradient_right: "#159957"
-#     header: "#fff"
-#     android_theme: "#000"     # this default to gradient_color
-#     link: "#1e6bb8"           # this default to gradient_color
-#     section_title: "#155799"  # this default to gradient_color
+color:
+    gradient_left: "#155799"
+    gradient_right: "#159957"
+    header: "#fff"
+    android_theme: "#000"     # this default to gradient_color
+    link: "#1e6bb8"           # this default to gradient_color
+    section_title: "#155799"  # this default to gradient_color
 buttons:
     zip_url: https://auburn.edu/~tmp0038/PiC.zip
     zip_title: "Download PiC.zip"
     zip_hide: false
-    tar_url: "http://example.com/"
+    tar_url: https://auburn.edu/~tmp0038/PiC.tar.gz
     tar_title: "Download PiC.tar.gz"
     tar_hide: false
-#     github_url: https://github.com/Phrase-in-Context
-#     github_title: "View on Github"
     github_hide: false
 
