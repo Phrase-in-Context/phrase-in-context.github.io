@@ -1,16 +1,10 @@
-title: Custom Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
+title: "PiC: Phrase in Context"
+description: "A Dataset for Phrase Understanding and Semantic Search"
 show_downloads: true
-remote_theme: tuur29/pages-themes-cayman
-color:
-  header: "#000"
-  gradient_left: "#e53935"
-  gradient_right: "#f57c00"
-logo_url: https://github.githubassets.com/images/icons/emoji/octocat.png
-syntax_theme: https://stylishthemes.github.io/Syntax-Themes/pygments/css-github/pygments-monokai.css
+theme: jekyll-theme-cayman
 buttons:
-  zip_url: https://github.com/tuur29/pages-themes-cayman
-  zip_title: View Documentation
+  zip_url: https://auburn.edu/~tmp0038/PiC.zip
+  zip_title: "Download PiC.zip"
   zip_hide: false
   tar_hide: true
   github_hide: true
