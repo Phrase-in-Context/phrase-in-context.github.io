@@ -15,6 +15,10 @@ color:
     android_theme: "#000"     # this default to gradient_color
     link: "#1e6bb8"           # this default to gradient_color
     section_title: "#155799"  # this default to gradient_color
+
+github:
+    is_project_page: true
+
 buttons:
     zip_url: https://auburn.edu/~tmp0038/PiC.zip
     zip_title: "Download PiC.zip"
