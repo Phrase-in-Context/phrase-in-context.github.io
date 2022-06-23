@@ -1,10 +1,10 @@
 theme: jekyll-theme-cayman
 title: "PiC: Phrase in Context"
 description: "A Dataset for Phrase Understanding and Semantic Search"
-show_downloads: true
+show_downloads: "true"
 buttons:
-  zip_url: https://github.com/tuur29/pages-themes-cayman
-  zip_title: View Documentation
-  zip_hide: false
-  tar_hide: true
-  github_hide: true
+  zip_url: "https://auburn.edu/~tmp0038/PiC.zip"
+  zip_title: "Download PiC.zip"
+  zip_hide: "false"
+  tar_hide: "true"
+  github_hide: "true"
