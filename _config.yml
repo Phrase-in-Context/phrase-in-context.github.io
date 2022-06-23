@@ -18,13 +18,14 @@ color:
 
 github:
     is_project_page: true
-
+    repository_url: https://github.com/Phrase-in-Context
+    
 buttons:
     zip_url: https://auburn.edu/~tmp0038/PiC.zip
     zip_title: "Download PiC.zip"
     zip_hide: false
     tar_url: https://auburn.edu/~tmp0038/PiC.tar.gz
     tar_title: "Download PiC.tar.gz"
-    tar_hide: false
+    tar_hide: true
     github_hide: false
 
