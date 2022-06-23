@@ -1,5 +1,6 @@
 title: "PiC: Phrase in Context"
 description: "A Dataset for Phrase Understanding and Semantic Search"
+theme: jekyll-theme-cayman
 remote_theme: tuur29/pages-themes-cayman
 
 google_analytics: 320505909
