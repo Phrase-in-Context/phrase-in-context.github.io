@@ -19,10 +19,10 @@ buttons:
     zip_url: https://auburn.edu/~tmp0038/PiC.zip
     zip_title: "Download PiC.zip"
     zip_hide: false
-#     tar_url: "http://example.com/"
-#     tar_title: "Download PiC.tar.gz"
-    tar_hide: true
-    github_url: "https://github.com/Phrase-in-Context"
-    github_title: "View on Github"
+    tar_url: "http://example.com/"
+    tar_title: "Download PiC.tar.gz"
+    tar_hide: false
+#     github_url: https://github.com/Phrase-in-Context
+#     github_title: "View on Github"
     github_hide: false
 
