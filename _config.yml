@@ -3,8 +3,8 @@ title: "PiC: Phrase in Context"
 description: "A Dataset for Phrase Understanding and Semantic Search"
 
 show_downloads: true
-google_analytics: 320505909
-google_analytics_anonymize: false
+# google_analytics: 320505909
+# google_analytics_anonymize: false
 darkmode: false
 colors:
     gradient_left: "#155799"
@@ -23,4 +23,3 @@ buttons:
       github_url: "https://github.com/Phrase-in-Context"
       github_title: "View on Github"
       github_hide: false
-
