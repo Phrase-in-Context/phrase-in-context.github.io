@@ -1,3 +1,26 @@
 theme: jekyll-theme-cayman
 title: "PiC: Phrase in Context"
 description: "A Dataset for Phrase Understanding and Semantic Search"
+
+show_downloads: true
+google_analytics: 320505909
+google_analytics_anonymize: false
+darkmode: false
+colors:
+    gradient_left: "#155799"
+    gradient_right: "#159957"
+    header: "#fff"
+    android_theme: "#000"     # this default to gradient_color
+    link: "#1e6bb8"           # this default to gradient_color
+    section_title: "#155799"  # this default to gradient_color
+buttons:
+      zip_url: https://auburn.edu/~tmp0038/PiC.zip
+      zip_title: Download PiC.zip
+      zip_hide: false
+      tar_url: http://example.com/
+      tar_title: Download PiC.tar.gz
+      tar_hide: true
+      github_url: https://github.com/Phrase-in-Context
+      github_title: View on Github
+      github_hide: false
+
