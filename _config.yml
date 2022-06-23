@@ -6,7 +6,7 @@ remote_theme: tuur29/pages-themes-cayman
 # google_analytics: 320505909
 # google_analytics_anonymize: false
 # darkmode: false
-# show_downloads: true
+show_downloads: true
 
 # color:
 #     gradient_left: "#155799"
