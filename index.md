@@ -7,6 +7,9 @@
 PS is a binary classification task with the goal of predicting whether two multi-word noun phrases are semantically similar or not given the same context sentence. This dataset contains ~56K pairs of two phrases along with their contexts used for disambiguation, since two phrases only sometimes are not enough for semantic comparison. Around 28K positive examples were annotated by linguistic experts on [Upwork.com](https://upwork.com) while the other 28K negative examples were created by randomly replacing 50% of the phrase tokens in the positive examples.
 
 <button name="button" class="btn" onclick="https://huggingface.co/datasets/PiC/phrase_similarity">Explore PS</button>
+{% include button.html button_name="My Button" button_class="primary" %}
+[button url="http://www.google.com"]
+[Click me](http://www.google.com){: .btn}
 
 ## PR: Phrase Retrieval
 
