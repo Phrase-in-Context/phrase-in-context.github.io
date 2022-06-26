@@ -14,6 +14,8 @@ PS is a binary classification task with the goal of predicting whether two multi
 
 [Click me](http://www.google.com){: .btn}
 
+<a href="https://huggingface.co/datasets/PiC/phrase_similarity" class="btn">Success Button</a>
+
 ## PR: Phrase Retrieval
 
 PR is a phrase retrieval task with the goal of finding a phrase **t** in a given document **d** such that **t** is semantically similar to the query phrase, which is the paraphrase **q** provided by annotators. We release two versions of PR: **PR-pass** and **PR-page**, i.e., datasets of 3-tuples (query **q**, target phrase **t**, document **d**) where **d** is a random 11-sentence passage that contains **t** or an entire Wikipedia page. While PR-pass contains 28,147 examples, PR-page contains slightly fewer examples (28,098) as we remove those trivial examples whose Wikipedia pages contain exactly the query phrase (in addition to the target phrase). Both datasets are split into 5K/3K/~20K for test/dev/train, respectively.
