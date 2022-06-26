@@ -22,7 +22,7 @@ github:
     
 buttons:
     zip_url: https://auburn.edu/~tmp0038/PiC.zip
-    zip_title: "Download PiC.zip"
+    zip_title: "Download PiC.zip (~196MB)"
     zip_hide: false
     tar_url: https://auburn.edu/~tmp0038/PiC.tar.gz
     tar_title: "Download PiC.tar.gz"
