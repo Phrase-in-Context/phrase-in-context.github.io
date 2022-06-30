@@ -2,10 +2,13 @@
 
 **Phrase in Context** is a curated benchmark for phrase understanding and semantic search, consisting of three tasks of increasing difficulty: Phrase Similarity (PS), Phrase Retrieval (PR) and Phrase Sense Disambiguation (PSD). The datasets are annotated by 13 linguistic experts on Upwork and verified by two groups: ~1000 AMT crowdworkers and another set of 5 linguistic experts. PiC benchmark is distributed under [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
+![](https://auburn.edu/~tmp0038/PiC/pic_sample.png "")
+
+![](https://auburn.edu/~tmp0038/PiC/pic_construction.png "")
+
 ## PS: Phrase Similarity
 
 PS is a binary classification task with the goal of predicting whether two multi-word noun phrases are semantically similar or not given the same context sentence. This dataset contains ~56K pairs of two phrases along with their contexts used for disambiguation, since two phrases only sometimes are not enough for semantic comparison. Around 28K positive examples were annotated by linguistic experts on [Upwork.com](https://upwork.com) while the other 28K negative examples were created by randomly replacing 50% of the phrase tokens in the positive examples.
-
 
 <a href="https://huggingface.co/datasets/PiC/phrase_similarity" class="btn-bootstrap btn-outline-primary">Explore PS</a>
 
@@ -14,15 +17,15 @@ PS is a binary classification task with the goal of predicting whether two multi
 
 PR is a phrase retrieval task with the goal of finding a phrase **t** in a given document **d** such that **t** is semantically similar to the query phrase, which is the paraphrase **q** provided by annotators. We release two versions of PR: **PR-pass** and **PR-page**, i.e., datasets of 3-tuples (query **q**, target phrase **t**, document **d**) where **d** is a random 11-sentence passage that contains **t** or an entire Wikipedia page. While PR-pass contains 28,147 examples, PR-page contains slightly fewer examples (28,098) as we remove those trivial examples whose Wikipedia pages contain exactly the query phrase (in addition to the target phrase). Both datasets are split into 5K/3K/~20K for test/dev/train, respectively.
 
-
 <a href="https://huggingface.co/datasets/PiC/phrase_retrieval" class="btn-bootstrap btn-outline-primary">Explore PR</a>
+
 
 ## PSD: Phrase Sense Disambiguation
 
 PSD is a phrase retrieval task like PR-pass and PR-page but more challenging since each example contains two short paragraphs (~11 sentences each) which trigger different senses of the same phrase. The goal is to find the instance of the target phrase **t** that is semantically similar to a paraphrase **q**. The dataset is split into 5,150/3,000/20,002 for test/dev/train, respectively.
 
-
 <a href="https://huggingface.co/datasets/PiC/phrase_sense_disambiguation" class="btn-bootstrap btn-outline-primary">Explore PSD</a>
+
 
 ## Evaluation
 
