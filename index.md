@@ -2,9 +2,9 @@
 
 **Phrase in Context** is a curated benchmark for phrase understanding and semantic search, consisting of three tasks of increasing difficulty: Phrase Similarity (PS), Phrase Retrieval (PR) and Phrase Sense Disambiguation (PSD). The datasets are annotated by 13 linguistic experts on Upwork and verified by two groups: ~1000 AMT crowdworkers and another set of 5 linguistic experts. PiC benchmark is distributed under [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
-![](https://auburn.edu/~tmp0038/PiC/pic_sample.png "")
+<img src="https://auburn.edu/~tmp0038/PiC/pic_sample.png" alt="" width="100%" height="100%">
 
-![](https://auburn.edu/~tmp0038/PiC/pic_construction.png "")
+<img src="https://auburn.edu/~tmp0038/PiC/pic_sample.png" alt="" width="100%" height="100%">
 
 ## PS: Phrase Similarity
 
