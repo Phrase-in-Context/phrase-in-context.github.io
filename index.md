@@ -4,7 +4,7 @@
 
 <img src="https://auburn.edu/~tmp0038/PiC/pic_sample.png" alt="" width="100%" height="100%">
 
-<img src="https://auburn.edu/~tmp0038/PiC/pic_sample.png" alt="" width="100%" height="100%">
+<img src="https://auburn.edu/~tmp0038/PiC/pic_construction.png" alt="" width="100%" height="100%">
 
 ## PS: Phrase Similarity
 
