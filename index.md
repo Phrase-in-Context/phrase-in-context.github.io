@@ -32,7 +32,7 @@ PSD is a phrase retrieval task like PR-pass and PR-page but more challenging sin
 Paper coming soon.
 
 ```
-  @article{pham2022PiC,
+@article{pham2022PiC,
   title={PiC: A Phrase-in-Context Dataset for Phrase Understanding and Semantic Search},
   author={Pham, Thang and Yoon, David and Bui, Trung and Nguyen, Anh},
   journal={arXiv preprint},
