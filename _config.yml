@@ -21,8 +21,8 @@ github:
     repository_url: https://github.com/Phrase-in-Context
     
 buttons:
-    zip_url: https://auburn.edu/~tmp0038/PiC.zip
-    zip_title: "Download PiC.zip (~196MB)"
+    zip_url: https://huggingface.co/PiC     # https://auburn.edu/~tmp0038/PiC.zip
+    zip_title: Download on Huggingface      # "Download PiC.zip (~196MB)"
     zip_hide: false
     tar_url: https://auburn.edu/~tmp0038/PiC.tar.gz
     tar_title: "Download PiC.tar.gz"
