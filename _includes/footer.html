@@ -1,0 +1,32 @@
+<footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-md-6">
+        <p class="copyright text-muted">
+          <img src="/assets/img/auburn_logo.png" width=170px hspace="10">
+          <img src="/assets/img/adobe_logo.png" width=170px hspace="10">
+        </p>
+      </div>
+
+      <div class="col-md-6">
+        {% if page.footer-extra %}
+          <div class="footer-custom-content">
+            {% for file in page.footer-extra %}
+              {% include {{ file }} %}
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        <p class="copyright text-muted">
+          Have Questions? Please ask us questions at our <a href="{{ site.google-group }}">google group</a> or contact Thang Pham at <a href="mailto:{{ site.contact }}">{{ site.contact }}</a>
+        </p>
+        {% unless site.remove-ads %}<p class="theme-by text-muted">
+          Powered by
+          <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+          and
+          <a href="https://github.com/pages-themes/cayman">cayman</a>
+        </p>{% endunless %}
+      </div>
+    </div>
+  </div>
+</footer>

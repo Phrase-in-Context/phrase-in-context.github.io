@@ -1,7 +1,7 @@
 title: "PiC: Phrase in Context"
 description: "A Dataset for Phrase Understanding and Semantic Search"
 theme: jekyll-theme-cayman
-remote_theme: tuur29/pages-themes-cayman
+# remote_theme: tuur29/pages-themes-cayman
 
 google_analytics: "G-7SWKVJDDB4"
 google_analytics_anonymize: false
@@ -28,4 +28,16 @@ buttons:
     tar_title: "Download PiC.tar.gz"
     tar_hide: true
     github_hide: false
+
+# --- List of links in the navigation bar --- #
+
+navbar-links:
+    Paper: "https://arxiv.org/"
+    Phrase Similarity: "phrase_similarity"
+    Phrase Retrieval: "phrase_retrieval"
+    Phrase Sense Disambiguation: "phrase_sense_disambiguation"
+    Evaluation: "evaluation"
+
+contact: "thangpham@auburn.edu"
+google-group: "https://groups.google.com/u/1/g/phrase-in-context"
 
