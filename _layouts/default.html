@@ -65,22 +65,24 @@ common-js:
     {% include nav.html %}
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-    <header class="page-header" role="banner">
-      <h1 class="project-name">{{ site.title | page.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ site.description | page.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
-        {% unless site.buttons.github_hide %}
-          <a href="{{ site.github.repository_url }}" class="btn">Code on GitHub</a>
-        {% endunless %}
-      {% endif %}
-      {% if site.show_downloads %}
-        {% unless site.buttons.zip_hide %}
-          <a href="{{ site.buttons.zip_url | default: site.github.zip_url }}" class="btn">{{ site.buttons.zip_title | default: "Download .zip" }}</a>
-        {% endunless %}
-        {% unless site.buttons.tar_hide %}
-          <a href="{{ site.buttons.tar_url | default: site.github.tar_url }}" class="btn">{{ site.buttons.tar_title | default: "Download .tar.gz" }}</a>
-        {% endunless %}
-      {% endif %}
+    <header class="page-header">
+      <div class="intro-header">
+        <h1 class="project-name">{{ site.title | page.title | default: site.github.repository_name }}</h1>
+        <h2 class="project-tagline">{{ site.description | page.description | default: site.github.project_tagline }}</h2>
+        {% if site.github.is_project_page %}
+          {% unless site.buttons.github_hide %}
+            <a href="{{ site.github.repository_url }}" class="btn">Code on GitHub</a>
+          {% endunless %}
+        {% endif %}
+        {% if site.show_downloads %}
+          {% unless site.buttons.zip_hide %}
+            <a href="{{ site.buttons.zip_url | default: site.github.zip_url }}" class="btn">{{ site.buttons.zip_title | default: "Download .zip" }}</a>
+          {% endunless %}
+          {% unless site.buttons.tar_hide %}
+            <a href="{{ site.buttons.tar_url | default: site.github.tar_url }}" class="btn">{{ site.buttons.tar_title | default: "Download .tar.gz" }}</a>
+          {% endunless %}
+        {% endif %}
+      </div>
     </header>
 
     <main id="content" class="main-content" role="main">
