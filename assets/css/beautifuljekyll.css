@@ -124,7 +124,7 @@ img {
 
 .navbar-custom {
   /*background-color: {{ site.navbar-col | default: "#EAEAEA" }};*/
-  background-image: linear-gradient(to right, {{ site.color.gradient_left | default: "#155799" }} , {{ site.color.gradient_right | default: "#159957" }});
+  background-image: linear-gradient(to right, {{ site.color.gradient_left | default: "#38A2D7" }} , {{ site.color.gradient_right | default: "#014871" }});
   /*border-bottom: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};*/
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
