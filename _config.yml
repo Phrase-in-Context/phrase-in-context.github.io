@@ -9,8 +9,8 @@ darkmode: false
 show_downloads: true
 
 color:
-    gradient_left: "#155799"
-    gradient_right: "#159957"
+    gradient_left: "#38A2D7"
+    gradient_right: "#014871"
     header: "#fff"
     android_theme: "#000"     # this default to gradient_color
     link: "#1e6bb8"           # this default to gradient_color
