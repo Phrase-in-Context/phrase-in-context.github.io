@@ -32,7 +32,7 @@ buttons:
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-    Paper: "https://arxiv.org/"
+    Paper: "https://arxiv.org/abs/2207.09068"
     Phrase Similarity: "phrase_similarity"
     Phrase Retrieval: "phrase_retrieval"
     Phrase Sense Disambiguation: "phrase_sense_disambiguation"
