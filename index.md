@@ -64,13 +64,11 @@ PSD is a phrase retrieval task like PR-pass and PR-page but more challenging sin
 Joint work between Adobe Research and Auburn University: [Thang Pham](https://twitter.com/pmthangxai), [Seunghyun Yoon](https://david-yoon.github.io), [Trung Bui](https://research.adobe.com/person/trung-bui/), and [Anh Nguyen](https://anhnguyen.me).
 
 
-Paper coming soon.
-
 ```
 @article{pham2022PiC,
   title={PiC: A Phrase-in-Context Dataset for Phrase Understanding and Semantic Search},
-  author={Pham, Thang and Yoon, David and Bui, Trung and Nguyen, Anh},
-  journal={arXiv preprint},
+  author={Pham, Thang M and Yoon, Seunghyun and Bui, Trung and Nguyen, Anh},
+  journal={arXiv preprint arXiv:2207.09068},
   year={2022}
 }
 ```
