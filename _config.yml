@@ -37,6 +37,7 @@ navbar-links:
     Phrase Retrieval: "phrase_retrieval"
     Phrase Sense Disambiguation: "phrase_sense_disambiguation"
     Evaluation: "evaluation"
+    Demo: "https://aub.ie/phrase-search"
 
 contact: "phrase-in-context@googlegroups.com"
 google-group: "https://groups.google.com/u/1/g/phrase-in-context"
