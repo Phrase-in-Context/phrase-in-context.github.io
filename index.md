@@ -34,6 +34,9 @@
  
  <figure style="text-align:center">
   <a href="/assets/img/pic_tasks.png"><img src="/assets/img/pic_construction_new.png" alt="" width="100%"></a>
+  <figcaption style="text-align:left">
+    Given a phrase, two associated Wikipedia pages, and expert annotations, i.e. answers to Q1, Q2, and Q3 (a), we are able to construct two pairs of positive and negative examples for PS (b), a PR-pass example (c), a PR-page example (d), and a PSD example only if the answer to Q3 is No (e).
+  </figcaption>
 </figure>
 
 
