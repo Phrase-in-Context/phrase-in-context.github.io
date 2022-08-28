@@ -14,7 +14,7 @@ In *Phrase Sense Disambiguation* task, we focus on Q/A approach since it almost 
 
 <figure style="text-align:center">
   <a href="/assets/img/results_ps.png"><img src="/assets/img/results_ps.png" alt="" width="100%"></a>
-  <figcaption style="text-align:center;">
+  <figcaption style="text-align:left;">
   	Accuracy (%) of state-of-the-art BERT-based models on the PS test set. Contextualized phrase embeddings (“Phrase + Context”) yield substantially higher performance on PS than non-contextualized embeddings (“Phrase”), e.g. a remarkable gain of +41.06 from 28.57% for BERT.
 </figcaption>
 </figure>
