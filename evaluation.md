@@ -15,7 +15,7 @@ In *Phrase Sense Disambiguation* task, we focus on Q/A approach since it almost 
 <figure style="text-align:center">
   <a href="/assets/img/results_ps.png"><img src="/assets/img/results_ps.png" alt="" width="100%"></a>
   <figcaption style="text-align:center;">
-  	Accuracy (%) of state-of-the-art models on the PS test set.
+  	Accuracy (%) of state-of-the-art BERT-based models on the PS test set. Contextualized phrase embeddings (“Phrase + Context”) yield substantially higher performance on PS than non-contextualized embeddings (“Phrase”), e.g. a remarkable gain of +41.06 from 28.57% for BERT.
 </figcaption>
 </figure>
 
@@ -27,7 +27,7 @@ In *Phrase Sense Disambiguation* task, we focus on Q/A approach since it almost 
 <figure style="text-align:center">
   <a href="/assets/img/results_pr_pass.png"><img src="/assets/img/results_pr_pass.png" alt="" width="100%"></a>
   <figcaption style="text-align:left;">
-  	Ranking accuracy on <b>PR-pass</b> using the state-of-the-art pretrained phrase embeddings (a) and those finetuned on PR-pass via QA-style training (b)
+  	Ranking accuracy (%) on PR-pass using the state-of-the-art pretrained phrase embeddings (a) and those finetuned on PR-pass via QA-style training (b). ∆ (e.g. -3.62) denotes the differences between the Top-1 accuracy in the contextualized (“Phrase + Context”) vs. the non-contextualized (“Phrase”) setting.
 </figcaption>
 </figure>
 
@@ -50,6 +50,6 @@ See the table below for (a) and (b).
 <figure style="text-align:center">
   <a href="/assets/img/results_qa.png"><img src="/assets/img/results_qa.png" alt="" width="100%"></a>
   <figcaption style="text-align:left;">
-  	Test-set performance of trained QA models. For (a) and (b), models are trained and tested on their same datasets while for (c) models here are tested on PSD but trained on PR-pass.
+  	Test-set performance (%) of QA models on PR-pass (a), PR-page (b), and PSD (c). When trained directly on PR-pass (a) and PR-page (b), SotA QA models perform well. However, testing the PR-pass-trained models on PSD shows a significant drop in accuracy (c). That is, QA models tend to understand a single sense of a phrase in context well (high PR-pass, PR-page, and PSD EM scores). Yet, they are not able to differentiate two senses of the same phrase (e.g., here, PhraseBERT accuracy drops -40.90 points between EM+loc vs. EM scores).
 </figcaption>
 </figure>
